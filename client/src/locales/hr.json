@@ -1,0 +1,190 @@
+{
+  "app": {
+    "name": "TinyTasteSteps",
+    "tagline": "Veliki okusi za male gurmane.",
+    "version": "Verzija 1.0.0"
+  },
+  "nav": {
+    "home": "Početna",
+    "plan": "Plan",
+    "shopping": "Kupovina",
+    "favorites": "Favoriti",
+    "settings": "Postavke"
+  },
+  "home": {
+    "quickTips": "Brzi savjeti",
+    "allTips": "Svi savjeti"
+  },
+  "ageStages": {
+    "6-8": "6-8 mj",
+    "8-10": "8-10 mj",
+    "10-12": "10-12 mj",
+    "all": "Svi",
+    "6": "6+ mj",
+    "8": "8+ mj",
+    "10": "10+ mj",
+    "12": "12+ mj"
+  },
+  "ageFilters": {
+    "6-8": "6-8 mjeseci",
+    "8-10": "8-10 mjeseci",
+    "10-12": "10-12 mjeseci"
+  },
+  "categories": {
+    "all": "Svi recepti",
+    "dorucak": "Doručak",
+    "rucak": "Ručak",
+    "vecera": "Večera",
+    "vocne": "Voćne",
+    "povrtne": "Povrtne"
+  },
+  "foodTypes": {
+    "vocne": "Voćne",
+    "povrtne": "Povrtne",
+    "zitarice": "Žitarice",
+    "mesne": "Mesne"
+  },
+  "recipes": {
+    "back": "Natrag",
+    "ingredients": "Sastojci:",
+    "preparation": "Priprema:",
+    "note": "Napomena:",
+    "addToShopping": "Dodaj na popis za kupovinu",
+    "addToPlan": "Plan",
+    "addedToShopping": "Uspješno dodano!",
+    "addedToShoppingDesc": "Sastojci su dodani na popis za kupovinu.",
+    "recipeNotFound": "Recept nije pronađen",
+    "backToHome": "Natrag na početnu",
+    "recipeCount_one": "{{count}} recept",
+    "recipeCount_few": "{{count}} recepta",
+    "recipeCount_other": "{{count}} recepata",
+    "noRecipes": "Nema recepata",
+    "tryOtherFilter": "Pokušajte s drugim filterom",
+    "ingredientCount": "{{count}} sastojaka",
+    "months": "mj",
+    "prep": "Priprema",
+    "total": "Ukupno",
+    "nutritionNotes": "Nutritivne napomene",
+    "allergens": "Alergeni",
+    "ingredientsLabel": "sastojaka"
+  },
+  "mealPlan": {
+    "title": "Tjedni plan",
+    "subtitle": "Planirajte obroke za vašu bebu",
+    "shoppingList": "Popis za kupovinu",
+    "clearDay": "Očisti dan",
+    "addRecipe": "Dodaj recept",
+    "selectRecipe": "Odaberi recept",
+    "searchRecipes": "Pretraži recepte...",
+    "noResults": "Nema rezultata",
+    "weeklyOverview": "Tjedni pregled",
+    "mealsPlanned": "{{count}} od 21 obroka planirano",
+    "recipeAdded": "Recept dodan u plan!",
+    "dayCleared": "Dan očišćen",
+    "dayClearedDesc": "Svi obroci za {{day}} su uklonjeni.",
+    "planEmpty": "Plan je prazan",
+    "planEmptyDesc": "Dodajte recepte u plan pa pokušajte ponovno.",
+    "addedToShoppingFromPlan": "Dodano na popis za kupovinu!",
+    "addedToShoppingFromPlanDesc": "{{count}} sastojaka iz tjednog plana."
+  },
+  "days": {
+    "pon": "Ponedjeljak",
+    "uto": "Utorak",
+    "sri": "Srijeda",
+    "cet": "Četvrtak",
+    "pet": "Petak",
+    "sub": "Subota",
+    "ned": "Nedjelja"
+  },
+  "daysShort": {
+    "pon": "Pon",
+    "uto": "Uto",
+    "sri": "Sri",
+    "cet": "Čet",
+    "pet": "Pet",
+    "sub": "Sub",
+    "ned": "Ned"
+  },
+  "meals": {
+    "dorucak": "Doručak",
+    "rucak": "Ručak",
+    "vecera": "Večera"
+  },
+  "shopping": {
+    "title": "Popis za kupovinu",
+    "addPlaceholder": "Dodaj artikl...",
+    "emptyTitle": "Popis je prazan",
+    "emptyDesc": "Dodajte sastojke iz recepata ili ručno",
+    "bought": "Kupljeno",
+    "clearBought": "Obriši kupljeno"
+  },
+  "favorites": {
+    "title": "Favoriti",
+    "emptyTitle": "Nemate omiljene recepte!",
+    "emptyDesc": "Dodajte recepte u favorite klikom na ikonu srca na stranici recepta.",
+    "browseRecipes": "Pregledaj recepte"
+  },
+  "tips": {
+    "title": "Savjeti",
+    "subtitle": "Korisni savjeti za prehranu vaše bebe",
+    "moreSoon": "Više savjeta uskoro!",
+    "tip1_title": "Dob bebe: 6-8 mjeseci",
+    "tip1_content": "Počnite s jednostavnim pireima od jednog sastojka. Uvodite novo povrće i voće postupno, čekajući 3-5 dana između novih namirnica kako biste pratili moguće alergijske reakcije.",
+    "tip2_title": "Dob bebe: 8-10 mjeseci",
+    "tip2_content": "Nastavite dojiti ili hraniti mlijekom za dojenčad. Uvodite mekše teksture hrane (pire, pasirano). Uvodite meso (piletina, puretina, teletina) i mahunarke (grašak, bob, leća).",
+    "tip3_title": "Dob bebe: 10-12 mjeseci",
+    "tip3_content": "Nastavite s raznolikijom prehranom, uključujući voće, povrće, meso, mahunarke, žitarice. Može se uvoditi jaje (početi sa žumanjkom). Može se uvoditi riba (pažljivo pratiti reakciju bebe).",
+    "tip4_title": "Hranite bebu sjedeći",
+    "tip4_content": "Osigurajte da beba sjedi uspravno dok jede kako bi se izbjeglo gušenje i druge komplikacije. Koristite posebne stolice za hranjenje koje podržavaju bebinu kralježnicu.",
+    "tip5_title": "Prilagođavanje teksture",
+    "tip5_content": "Kako vaša beba raste, postupno povećavajte teksturu hrane kako biste potaknuli žvakanje i razvoj. Od glatkih pirea prelazite na grubo pasirano, pa na mekane komade.",
+    "tip6_title": "Sezonske raznolikosti",
+    "tip6_content": "Odaberite voće i povrće koje je u sezoni kako biste dobili maksimalnu svježinu i okus. Sezonska hrana je bogatija nutrijentima i povoljnija za proračun.",
+    "tip7_title": "Hidratacija je važna",
+    "tip7_content": "Nudite bebi vodu između obroka, posebno u toplijim mjesecima. Koristite malu šalicu umjesto bočice kako biste poticali razvoj motorike."
+  },
+  "settings": {
+    "title": "Postavke",
+    "general": "Općenito",
+    "support": "Podrška",
+    "language": "Jezik",
+    "notifications": "Obavijesti",
+    "darkMode": "Tamni način",
+    "units": "Mjerne jedinice",
+    "babyProfile": "Profil bebe",
+    "aboutApp": "O aplikaciji",
+    "rateApp": "Ocijenite aplikaciju",
+    "contactUs": "Kontaktirajte nas",
+    "comingSoon": "Uskoro dostupno!",
+    "comingSoonDesc": "Ova funkcija će biti dostupna u sljedećoj verziji.",
+    "selectLanguage": "Odaberite jezik",
+    "languageChanged": "Jezik promijenjen!",
+    "feedback": "Pošalji povratnu informaciju",
+    "about": "O aplikaciji",
+    "version": "Verzija",
+    "madeWithLove": "Veliki okusi za male gurmane."
+  },
+  "notFound": {
+    "title": "Stranica nije pronađena",
+    "description": "Žao nam je, stranica koju tražite ne postoji. Možda je premještena ili obrisana.",
+    "goHome": "Idi na početnu"
+  },
+  "banners": {
+    "banana_title": "Banana",
+    "banana_1": "Banane su bogate kalijem koji podržava zdravo srce",
+    "banana_2": "Meka tekstura banane je idealna za prve zalogaje",
+    "banana_3": "Banane pružaju energiju za aktivne bebe",
+    "banana_4": "Lako se kombiniraju sa žitaricama i jogurtom",
+    "carrot_title": "Mrkva",
+    "carrot_1": "Mrkva je bogata beta-karotenom za zdrav vid",
+    "carrot_2": "Slatki okus mrkve bebe obično vole",
+    "carrot_3": "Kuhana mrkva je laka za probavu",
+    "carrot_4": "Odličan izvor vlakana za probavu"
+  },
+  "ageGroups": {
+    "5-6": "5-6 mj",
+    "7-8": "7-8 mj",
+    "9-10": "9-10 mj",
+    "11-12": "11-12 mj"
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "app": {
+    "name": "TinyTasteSteps",
+    "tagline": "Big Flavors for Little Ones.",
+    "version": "Version 1.0.0"
+  },
+  "nav": {
+    "home": "Home",
+    "plan": "Plan",
+    "shopping": "Shopping",
+    "favorites": "Favorites",
+    "settings": "Settings"
+  },
+  "home": {
+    "quickTips": "Quick Tips",
+    "allTips": "All Tips"
+  },
+  "ageStages": {
+    "6-8": "6-8 mo",
+    "8-10": "8-10 mo",
+    "10-12": "10-12 mo",
+    "all": "All",
+    "6": "6+ mo",
+    "8": "8+ mo",
+    "10": "10+ mo",
+    "12": "12+ mo"
+  },
+  "ageFilters": {
+    "6-8": "6-8 months",
+    "8-10": "8-10 months",
+    "10-12": "10-12 months"
+  },
+  "categories": {
+    "all": "All Recipes",
+    "dorucak": "Breakfast",
+    "rucak": "Lunch",
+    "vecera": "Dinner",
+    "vocne": "Fruit",
+    "povrtne": "Vegetable"
+  },
+  "foodTypes": {
+    "vocne": "Fruit",
+    "povrtne": "Vegetable",
+    "zitarice": "Cereal",
+    "mesne": "Meat"
+  },
+  "recipes": {
+    "back": "Back",
+    "ingredients": "Ingredients:",
+    "preparation": "Preparation:",
+    "note": "Note:",
+    "addToShopping": "Add to shopping list",
+    "addToPlan": "Plan",
+    "addedToShopping": "Successfully added!",
+    "addedToShoppingDesc": "Ingredients have been added to the shopping list.",
+    "recipeNotFound": "Recipe not found",
+    "backToHome": "Back to home",
+    "recipeCount_one": "{{count}} recipe",
+    "recipeCount_other": "{{count}} recipes",
+    "noRecipes": "No recipes",
+    "tryOtherFilter": "Try a different filter",
+    "ingredientCount": "{{count}} ingredients",
+    "months": "mo",
+    "prep": "Prep",
+    "total": "Total",
+    "nutritionNotes": "Nutrition Notes",
+    "allergens": "Allergens",
+    "ingredientsLabel": "ingredients"
+  },
+  "mealPlan": {
+    "title": "Weekly Plan",
+    "subtitle": "Plan meals for your baby",
+    "shoppingList": "Shopping List",
+    "clearDay": "Clear day",
+    "addRecipe": "Add recipe",
+    "selectRecipe": "Select recipe",
+    "searchRecipes": "Search recipes...",
+    "noResults": "No results",
+    "weeklyOverview": "Weekly Overview",
+    "mealsPlanned": "{{count}} of 21 meals planned",
+    "recipeAdded": "Recipe added to plan!",
+    "dayCleared": "Day cleared",
+    "dayClearedDesc": "All meals for {{day}} have been removed.",
+    "planEmpty": "Plan is empty",
+    "planEmptyDesc": "Add recipes to the plan and try again.",
+    "addedToShoppingFromPlan": "Added to shopping list!",
+    "addedToShoppingFromPlanDesc": "{{count}} ingredients from the weekly plan."
+  },
+  "days": {
+    "pon": "Monday",
+    "uto": "Tuesday",
+    "sri": "Wednesday",
+    "cet": "Thursday",
+    "pet": "Friday",
+    "sub": "Saturday",
+    "ned": "Sunday"
+  },
+  "daysShort": {
+    "pon": "Mon",
+    "uto": "Tue",
+    "sri": "Wed",
+    "cet": "Thu",
+    "pet": "Fri",
+    "sub": "Sat",
+    "ned": "Sun"
+  },
+  "meals": {
+    "dorucak": "Breakfast",
+    "rucak": "Lunch",
+    "vecera": "Dinner"
+  },
+  "shopping": {
+    "title": "Shopping List",
+    "addPlaceholder": "Add item...",
+    "emptyTitle": "List is empty",
+    "emptyDesc": "Add ingredients from recipes or manually",
+    "bought": "Bought",
+    "clearBought": "Clear bought"
+  },
+  "favorites": {
+    "title": "Favorites",
+    "emptyTitle": "No favorite recipes!",
+    "emptyDesc": "Add recipes to favorites by tapping the heart icon on the recipe page.",
+    "browseRecipes": "Browse recipes"
+  },
+  "tips": {
+    "title": "Tips",
+    "subtitle": "Helpful tips for your baby's nutrition",
+    "moreSoon": "More tips coming soon!",
+    "tip1_title": "Baby age: 6-8 months",
+    "tip1_content": "Start with simple single-ingredient purees. Introduce new vegetables and fruits gradually, waiting 3-5 days between new foods to monitor possible allergic reactions.",
+    "tip2_title": "Baby age: 8-10 months",
+    "tip2_content": "Continue breastfeeding or formula feeding. Introduce softer food textures (puree, mashed). Introduce meat (chicken, turkey, veal) and legumes (peas, beans, lentils).",
+    "tip3_title": "Baby age: 10-12 months",
+    "tip3_content": "Continue with a more varied diet including fruits, vegetables, meat, legumes, cereals. Eggs can be introduced (start with yolk). Fish can be introduced (carefully monitor baby's reaction).",
+    "tip4_title": "Feed baby sitting up",
+    "tip4_content": "Make sure your baby sits upright while eating to avoid choking and other complications. Use special high chairs that support your baby's spine.",
+    "tip5_title": "Texture adjustment",
+    "tip5_content": "As your baby grows, gradually increase food texture to encourage chewing and development. Move from smooth purees to coarsely mashed, then to soft pieces.",
+    "tip6_title": "Seasonal variety",
+    "tip6_content": "Choose fruits and vegetables that are in season for maximum freshness and flavor. Seasonal food is richer in nutrients and more budget-friendly.",
+    "tip7_title": "Hydration is important",
+    "tip7_content": "Offer your baby water between meals, especially in warmer months. Use a small cup instead of a bottle to encourage motor skill development."
+  },
+  "settings": {
+    "title": "Settings",
+    "general": "General",
+    "support": "Support",
+    "language": "Language",
+    "notifications": "Notifications",
+    "darkMode": "Dark Mode",
+    "units": "Measurement Units",
+    "babyProfile": "Baby Profile",
+    "aboutApp": "About App",
+    "rateApp": "Rate App",
+    "contactUs": "Contact Us",
+    "comingSoon": "Coming Soon!",
+    "comingSoonDesc": "This feature will be available in the next version.",
+    "selectLanguage": "Select language",
+    "languageChanged": "Language changed!",
+    "feedback": "Send feedback",
+    "about": "About app",
+    "version": "Version",
+    "madeWithLove": "Big Flavors for Little Ones."
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, the page you are looking for doesn't exist. It may have been moved or deleted.",
+    "goHome": "Go Home"
+  },
+  "banners": {
+    "banana_title": "Banana",
+    "banana_1": "Bananas are rich in potassium that supports a healthy heart",
+    "banana_2": "The soft texture of banana is ideal for first bites",
+    "banana_3": "Bananas provide energy for active babies",
+    "banana_4": "Easily combined with cereals and yogurt",
+    "carrot_title": "Carrot",
+    "carrot_1": "Carrots are rich in beta-carotene for healthy vision",
+    "carrot_2": "Babies usually love the sweet taste of carrots",
+    "carrot_3": "Cooked carrots are easy to digest",
+    "carrot_4": "An excellent source of fiber for digestion"
+  },
+  "ageGroups": {
+    "5-6": "5-6 mo",
+    "7-8": "7-8 mo",
+    "9-10": "9-10 mo",
+    "11-12": "11-12 mo"
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "app": {
+    "name": "TinyTasteSteps",
+    "tagline": "De grandes saveurs pour les petits.",
+    "version": "Version 1.0.0"
+  },
+  "nav": {
+    "home": "Accueil",
+    "plan": "Plan",
+    "shopping": "Courses",
+    "favorites": "Favoris",
+    "settings": "Paramètres"
+  },
+  "home": {
+    "quickTips": "Conseils rapides",
+    "allTips": "Tous les conseils"
+  },
+  "ageStages": {
+    "6-8": "6-8 m",
+    "8-10": "8-10 m",
+    "10-12": "10-12 m",
+    "all": "Tous",
+    "6": "6+ mois",
+    "8": "8+ mois",
+    "10": "10+ mois",
+    "12": "12+ mois"
+  },
+  "ageFilters": {
+    "6-8": "6-8 mois",
+    "8-10": "8-10 mois",
+    "10-12": "10-12 mois"
+  },
+  "categories": {
+    "all": "Toutes les recettes",
+    "dorucak": "Petit-déjeuner",
+    "rucak": "Déjeuner",
+    "vecera": "Dîner",
+    "vocne": "Fruits",
+    "povrtne": "Légumes"
+  },
+  "foodTypes": {
+    "vocne": "Fruits",
+    "povrtne": "Légumes",
+    "zitarice": "Céréales",
+    "mesne": "Viandes"
+  },
+  "recipes": {
+    "back": "Retour",
+    "ingredients": "Ingrédients :",
+    "preparation": "Préparation :",
+    "note": "Note :",
+    "addToShopping": "Ajouter à la liste de courses",
+    "addToPlan": "Plan",
+    "addedToShopping": "Ajouté avec succès !",
+    "addedToShoppingDesc": "Les ingrédients ont été ajoutés à la liste de courses.",
+    "recipeNotFound": "Recette non trouvée",
+    "backToHome": "Retour à l'accueil",
+    "recipeCount_one": "{{count}} recette",
+    "recipeCount_other": "{{count}} recettes",
+    "noRecipes": "Aucune recette",
+    "tryOtherFilter": "Essayez un autre filtre",
+    "ingredientCount": "{{count}} ingrédients",
+    "months": "m",
+    "prep": "Préparation",
+    "total": "Total",
+    "nutritionNotes": "Notes nutritionnelles",
+    "allergens": "Allergènes",
+    "ingredientsLabel": "ingrédients"
+  },
+  "mealPlan": {
+    "title": "Plan hebdomadaire",
+    "subtitle": "Planifiez les repas de votre bébé",
+    "shoppingList": "Liste de courses",
+    "clearDay": "Effacer le jour",
+    "addRecipe": "Ajouter une recette",
+    "selectRecipe": "Sélectionner une recette",
+    "searchRecipes": "Rechercher des recettes...",
+    "noResults": "Aucun résultat",
+    "weeklyOverview": "Aperçu hebdomadaire",
+    "mealsPlanned": "{{count}} sur 21 repas planifiés",
+    "recipeAdded": "Recette ajoutée au plan !",
+    "dayCleared": "Jour effacé",
+    "dayClearedDesc": "Tous les repas du {{day}} ont été supprimés.",
+    "planEmpty": "Le plan est vide",
+    "planEmptyDesc": "Ajoutez des recettes au plan et réessayez.",
+    "addedToShoppingFromPlan": "Ajouté à la liste de courses !",
+    "addedToShoppingFromPlanDesc": "{{count}} ingrédients du plan hebdomadaire."
+  },
+  "days": {
+    "pon": "Lundi",
+    "uto": "Mardi",
+    "sri": "Mercredi",
+    "cet": "Jeudi",
+    "pet": "Vendredi",
+    "sub": "Samedi",
+    "ned": "Dimanche"
+  },
+  "daysShort": {
+    "pon": "Lun",
+    "uto": "Mar",
+    "sri": "Mer",
+    "cet": "Jeu",
+    "pet": "Ven",
+    "sub": "Sam",
+    "ned": "Dim"
+  },
+  "meals": {
+    "dorucak": "Petit-déjeuner",
+    "rucak": "Déjeuner",
+    "vecera": "Dîner"
+  },
+  "shopping": {
+    "title": "Liste de courses",
+    "addPlaceholder": "Ajouter un article...",
+    "emptyTitle": "La liste est vide",
+    "emptyDesc": "Ajoutez des ingrédients depuis les recettes ou manuellement",
+    "bought": "Acheté",
+    "clearBought": "Effacer les achetés"
+  },
+  "favorites": {
+    "title": "Favoris",
+    "emptyTitle": "Pas de recettes favorites !",
+    "emptyDesc": "Ajoutez des recettes aux favoris en touchant l'icône cœur sur la page de la recette.",
+    "browseRecipes": "Parcourir les recettes"
+  },
+  "tips": {
+    "title": "Conseils",
+    "subtitle": "Conseils utiles pour l'alimentation de votre bébé",
+    "moreSoon": "Plus de conseils bientôt !",
+    "tip1_title": "Âge du bébé : 6-8 mois",
+    "tip1_content": "Commencez par des purées simples à un seul ingrédient. Introduisez de nouveaux légumes et fruits progressivement, en attendant 3-5 jours entre les nouveaux aliments pour surveiller d'éventuelles réactions allergiques.",
+    "tip2_title": "Âge du bébé : 8-10 mois",
+    "tip2_content": "Continuer l'allaitement ou le biberon. Introduire des textures plus douces (purée, écrasé). Introduire la viande (poulet, dinde, veau) et les légumineuses (petits pois, haricots, lentilles).",
+    "tip3_title": "Âge du bébé : 10-12 mois",
+    "tip3_content": "Continuer avec une alimentation plus variée incluant fruits, légumes, viande, légumineuses, céréales. Les œufs peuvent être introduits (commencer par le jaune). Le poisson peut être introduit (surveiller attentivement la réaction du bébé).",
+    "tip4_title": "Nourrir bébé assis",
+    "tip4_content": "Assurez-vous que bébé est assis bien droit pendant qu'il mange pour éviter l'étouffement et autres complications. Utilisez des chaises hautes spéciales qui soutiennent la colonne vertébrale de bébé.",
+    "tip5_title": "Adaptation des textures",
+    "tip5_content": "Au fur et à mesure que votre bébé grandit, augmentez progressivement la texture des aliments pour encourager la mastication et le développement. Passez des purées lisses aux écrasés grossiers, puis aux morceaux tendres.",
+    "tip6_title": "Variété saisonnière",
+    "tip6_content": "Choisissez des fruits et légumes de saison pour une fraîcheur et une saveur maximales. Les aliments de saison sont plus riches en nutriments et plus économiques.",
+    "tip7_title": "L'hydratation est importante",
+    "tip7_content": "Offrez de l'eau à votre bébé entre les repas, surtout pendant les mois les plus chauds. Utilisez un petit gobelet au lieu d'un biberon pour encourager le développement de la motricité."
+  },
+  "settings": {
+    "title": "Paramètres",
+    "general": "Général",
+    "support": "Assistance",
+    "language": "Langue",
+    "notifications": "Notifications",
+    "darkMode": "Mode sombre",
+    "units": "Unités de mesure",
+    "babyProfile": "Profil bébé",
+    "aboutApp": "À propos de l'app",
+    "rateApp": "Évaluer l'app",
+    "contactUs": "Nous contacter",
+    "comingSoon": "Bientôt disponible !",
+    "comingSoonDesc": "Cette fonctionnalité sera disponible dans la prochaine version.",
+    "selectLanguage": "Sélectionner la langue",
+    "languageChanged": "Langue changée !",
+    "feedback": "Envoyer un commentaire",
+    "about": "À propos de l'app",
+    "version": "Version",
+    "madeWithLove": "De grandes saveurs pour les petits."
+  },
+  "notFound": {
+    "title": "Page non trouvée",
+    "description": "Désolé, la page que vous recherchez n'existe pas. Elle a peut-être été déplacée ou supprimée.",
+    "goHome": "Aller à l'accueil"
+  },
+  "banners": {
+    "banana_title": "Banane",
+    "banana_1": "Les bananes sont riches en potassium qui soutient un cœur sain",
+    "banana_2": "La texture douce de la banane est idéale pour les premières bouchées",
+    "banana_3": "Les bananes fournissent de l'énergie pour les bébés actifs",
+    "banana_4": "Se combinent facilement avec les céréales et le yaourt",
+    "carrot_title": "Carotte",
+    "carrot_1": "Les carottes sont riches en bêta-carotène pour une vision saine",
+    "carrot_2": "Les bébés aiment généralement le goût sucré des carottes",
+    "carrot_3": "Les carottes cuites sont faciles à digérer",
+    "carrot_4": "Une excellente source de fibres pour la digestion"
+  },
+  "ageGroups": {
+    "5-6": "5-6 mois",
+    "7-8": "7-8 mois",
+    "9-10": "9-10 mois",
+    "11-12": "11-12 mois"
+  }
+}

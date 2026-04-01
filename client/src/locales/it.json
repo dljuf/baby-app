@@ -1,0 +1,189 @@
+{
+  "app": {
+    "name": "TinyTasteSteps",
+    "tagline": "Grandi sapori per i piccoli.",
+    "version": "Versione 1.0.0"
+  },
+  "nav": {
+    "home": "Home",
+    "plan": "Piano",
+    "shopping": "Spesa",
+    "favorites": "Preferiti",
+    "settings": "Impostazioni"
+  },
+  "home": {
+    "quickTips": "Consigli rapidi",
+    "allTips": "Tutti i consigli"
+  },
+  "ageStages": {
+    "6-8": "6-8 mesi",
+    "8-10": "8-10 mesi",
+    "10-12": "10-12 mesi",
+    "all": "Tutti",
+    "6": "6+ mesi",
+    "8": "8+ mesi",
+    "10": "10+ mesi",
+    "12": "12+ mesi"
+  },
+  "ageFilters": {
+    "6-8": "6-8 mesi",
+    "8-10": "8-10 mesi",
+    "10-12": "10-12 mesi"
+  },
+  "categories": {
+    "all": "Tutte le ricette",
+    "dorucak": "Colazione",
+    "rucak": "Pranzo",
+    "vecera": "Cena",
+    "vocne": "Frutta",
+    "povrtne": "Verdura"
+  },
+  "foodTypes": {
+    "vocne": "Frutta",
+    "povrtne": "Verdura",
+    "zitarice": "Cereali",
+    "mesne": "Carne"
+  },
+  "recipes": {
+    "back": "Indietro",
+    "ingredients": "Ingredienti:",
+    "preparation": "Preparazione:",
+    "note": "Nota:",
+    "addToShopping": "Aggiungi alla lista della spesa",
+    "addToPlan": "Piano",
+    "addedToShopping": "Aggiunto con successo!",
+    "addedToShoppingDesc": "Gli ingredienti sono stati aggiunti alla lista della spesa.",
+    "recipeNotFound": "Ricetta non trovata",
+    "backToHome": "Torna alla home",
+    "recipeCount_one": "{{count}} ricetta",
+    "recipeCount_other": "{{count}} ricette",
+    "noRecipes": "Nessuna ricetta",
+    "tryOtherFilter": "Prova con un filtro diverso",
+    "ingredientCount": "{{count}} ingredienti",
+    "months": "mesi",
+    "prep": "Preparazione",
+    "total": "Totale",
+    "nutritionNotes": "Note nutrizionali",
+    "allergens": "Allergeni",
+    "ingredientsLabel": "ingredienti"
+  },
+  "mealPlan": {
+    "title": "Piano settimanale",
+    "subtitle": "Pianifica i pasti per il tuo bebè",
+    "shoppingList": "Lista della spesa",
+    "clearDay": "Cancella giorno",
+    "addRecipe": "Aggiungi ricetta",
+    "selectRecipe": "Seleziona ricetta",
+    "searchRecipes": "Cerca ricette...",
+    "noResults": "Nessun risultato",
+    "weeklyOverview": "Panoramica settimanale",
+    "mealsPlanned": "{{count}} di 21 pasti pianificati",
+    "recipeAdded": "Ricetta aggiunta al piano!",
+    "dayCleared": "Giorno cancellato",
+    "dayClearedDesc": "Tutti i pasti per {{day}} sono stati rimossi.",
+    "planEmpty": "Il piano è vuoto",
+    "planEmptyDesc": "Aggiungi ricette al piano e riprova.",
+    "addedToShoppingFromPlan": "Aggiunto alla lista della spesa!",
+    "addedToShoppingFromPlanDesc": "{{count}} ingredienti dal piano settimanale."
+  },
+  "days": {
+    "pon": "Lunedì",
+    "uto": "Martedì",
+    "sri": "Mercoledì",
+    "cet": "Giovedì",
+    "pet": "Venerdì",
+    "sub": "Sabato",
+    "ned": "Domenica"
+  },
+  "daysShort": {
+    "pon": "Lun",
+    "uto": "Mar",
+    "sri": "Mer",
+    "cet": "Gio",
+    "pet": "Ven",
+    "sub": "Sab",
+    "ned": "Dom"
+  },
+  "meals": {
+    "dorucak": "Colazione",
+    "rucak": "Pranzo",
+    "vecera": "Cena"
+  },
+  "shopping": {
+    "title": "Lista della spesa",
+    "addPlaceholder": "Aggiungi articolo...",
+    "emptyTitle": "La lista è vuota",
+    "emptyDesc": "Aggiungi ingredienti dalle ricette o manualmente",
+    "bought": "Comprato",
+    "clearBought": "Cancella comprati"
+  },
+  "favorites": {
+    "title": "Preferiti",
+    "emptyTitle": "Nessuna ricetta preferita!",
+    "emptyDesc": "Aggiungi ricette ai preferiti toccando l'icona del cuore nella pagina della ricetta.",
+    "browseRecipes": "Sfoglia ricette"
+  },
+  "tips": {
+    "title": "Consigli",
+    "subtitle": "Consigli utili per l'alimentazione del tuo bebè",
+    "moreSoon": "Altri consigli in arrivo!",
+    "tip1_title": "Età del bebè: 6-8 mesi",
+    "tip1_content": "Inizia con semplici puree di un singolo ingrediente. Introduci nuove verdure e frutta gradualmente, aspettando 3-5 giorni tra i nuovi alimenti per monitorare possibili reazioni allergiche.",
+    "tip2_title": "Età del bebè: 8-10 mesi",
+    "tip2_content": "Continuare l'allattamento al seno o con formula. Introdurre consistenze più morbide (purea, passato). Introdurre carne (pollo, tacchino, vitello) e legumi (piselli, fagioli, lenticchie).",
+    "tip3_title": "Età del bebè: 10-12 mesi",
+    "tip3_content": "Continuare con una dieta più varia includendo frutta, verdura, carne, legumi, cereali. Si possono introdurre le uova (iniziare con il tuorlo). Si può introdurre il pesce (monitorare attentamente la reazione del bebè).",
+    "tip4_title": "Nutrire il bebè seduto",
+    "tip4_content": "Assicurati che il bebè sia seduto in posizione eretta mentre mangia per evitare il soffocamento e altre complicazioni. Usa seggioloni speciali che supportano la colonna vertebrale del bebè.",
+    "tip5_title": "Adattamento della consistenza",
+    "tip5_content": "Man mano che il tuo bebè cresce, aumenta gradualmente la consistenza del cibo per incoraggiare la masticazione e lo sviluppo. Passa dalle puree lisce a quelle grossolane, poi a pezzi morbidi.",
+    "tip6_title": "Varietà stagionale",
+    "tip6_content": "Scegli frutta e verdura di stagione per la massima freschezza e sapore. Il cibo stagionale è più ricco di nutrienti e più economico.",
+    "tip7_title": "L'idratazione è importante",
+    "tip7_content": "Offri al tuo bebè acqua tra i pasti, specialmente nei mesi più caldi. Usa una piccola tazza invece del biberon per incoraggiare lo sviluppo delle capacità motorie."
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "general": "Generale",
+    "support": "Supporto",
+    "language": "Lingua",
+    "notifications": "Notifiche",
+    "darkMode": "Modalità scura",
+    "units": "Unità di misura",
+    "babyProfile": "Profilo bebè",
+    "aboutApp": "Info sull'app",
+    "rateApp": "Valuta l'app",
+    "contactUs": "Contattaci",
+    "comingSoon": "Prossimamente!",
+    "comingSoonDesc": "Questa funzione sarà disponibile nella prossima versione.",
+    "selectLanguage": "Seleziona lingua",
+    "languageChanged": "Lingua cambiata!",
+    "feedback": "Invia feedback",
+    "about": "Informazioni sull'app",
+    "version": "Versione",
+    "madeWithLove": "Grandi sapori per i piccoli."
+  },
+  "notFound": {
+    "title": "Pagina non trovata",
+    "description": "Ci dispiace, la pagina che stai cercando non esiste. Potrebbe essere stata spostata o eliminata.",
+    "goHome": "Vai alla home"
+  },
+  "banners": {
+    "banana_title": "Banana",
+    "banana_1": "Le banane sono ricche di potassio che supporta un cuore sano",
+    "banana_2": "La consistenza morbida della banana è ideale per i primi morsi",
+    "banana_3": "Le banane forniscono energia per i bebè attivi",
+    "banana_4": "Facilmente combinabili con cereali e yogurt",
+    "carrot_title": "Carota",
+    "carrot_1": "Le carote sono ricche di beta-carotene per una vista sana",
+    "carrot_2": "I bebè di solito amano il gusto dolce delle carote",
+    "carrot_3": "Le carote cotte sono facili da digerire",
+    "carrot_4": "Un'eccellente fonte di fibre per la digestione"
+  },
+  "ageGroups": {
+    "5-6": "5-6 mesi",
+    "7-8": "7-8 mesi",
+    "9-10": "9-10 mesi",
+    "11-12": "11-12 mesi"
+  }
+}

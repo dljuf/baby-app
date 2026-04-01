@@ -1,0 +1,189 @@
+{
+  "app": {
+    "name": "TinyTasteSteps",
+    "tagline": "Große Aromen für kleine Feinschmecker.",
+    "version": "Version 1.0.0"
+  },
+  "nav": {
+    "home": "Startseite",
+    "plan": "Plan",
+    "shopping": "Einkauf",
+    "favorites": "Favoriten",
+    "settings": "Einstellungen"
+  },
+  "home": {
+    "quickTips": "Schnelle Tipps",
+    "allTips": "Alle Tipps"
+  },
+  "ageStages": {
+    "6-8": "6-8 Mo",
+    "8-10": "8-10 Mo",
+    "10-12": "10-12 Mo",
+    "all": "Alle",
+    "6": "6+ Mo",
+    "8": "8+ Mo",
+    "10": "10+ Mo",
+    "12": "12+ Mo"
+  },
+  "ageFilters": {
+    "6-8": "6-8 Monate",
+    "8-10": "8-10 Monate",
+    "10-12": "10-12 Monate"
+  },
+  "categories": {
+    "all": "Alle Rezepte",
+    "dorucak": "Frühstück",
+    "rucak": "Mittagessen",
+    "vecera": "Abendessen",
+    "vocne": "Obst",
+    "povrtne": "Gemüse"
+  },
+  "foodTypes": {
+    "vocne": "Obst",
+    "povrtne": "Gemüse",
+    "zitarice": "Getreide",
+    "mesne": "Fleisch"
+  },
+  "recipes": {
+    "back": "Zurück",
+    "ingredients": "Zutaten:",
+    "preparation": "Zubereitung:",
+    "note": "Hinweis:",
+    "addToShopping": "Zur Einkaufsliste hinzufügen",
+    "addToPlan": "Plan",
+    "addedToShopping": "Erfolgreich hinzugefügt!",
+    "addedToShoppingDesc": "Zutaten wurden zur Einkaufsliste hinzugefügt.",
+    "recipeNotFound": "Rezept nicht gefunden",
+    "backToHome": "Zurück zur Startseite",
+    "recipeCount_one": "{{count}} Rezept",
+    "recipeCount_other": "{{count}} Rezepte",
+    "noRecipes": "Keine Rezepte",
+    "tryOtherFilter": "Versuchen Sie einen anderen Filter",
+    "ingredientCount": "{{count}} Zutaten",
+    "months": "Mo",
+    "prep": "Vorbereitung",
+    "total": "Gesamt",
+    "nutritionNotes": "Nährwerthinweise",
+    "allergens": "Allergene",
+    "ingredientsLabel": "Zutaten"
+  },
+  "mealPlan": {
+    "title": "Wochenplan",
+    "subtitle": "Planen Sie Mahlzeiten für Ihr Baby",
+    "shoppingList": "Einkaufsliste",
+    "clearDay": "Tag löschen",
+    "addRecipe": "Rezept hinzufügen",
+    "selectRecipe": "Rezept auswählen",
+    "searchRecipes": "Rezepte suchen...",
+    "noResults": "Keine Ergebnisse",
+    "weeklyOverview": "Wochenübersicht",
+    "mealsPlanned": "{{count}} von 21 Mahlzeiten geplant",
+    "recipeAdded": "Rezept zum Plan hinzugefügt!",
+    "dayCleared": "Tag gelöscht",
+    "dayClearedDesc": "Alle Mahlzeiten für {{day}} wurden entfernt.",
+    "planEmpty": "Plan ist leer",
+    "planEmptyDesc": "Fügen Sie Rezepte zum Plan hinzu und versuchen Sie es erneut.",
+    "addedToShoppingFromPlan": "Zur Einkaufsliste hinzugefügt!",
+    "addedToShoppingFromPlanDesc": "{{count}} Zutaten aus dem Wochenplan."
+  },
+  "days": {
+    "pon": "Montag",
+    "uto": "Dienstag",
+    "sri": "Mittwoch",
+    "cet": "Donnerstag",
+    "pet": "Freitag",
+    "sub": "Samstag",
+    "ned": "Sonntag"
+  },
+  "daysShort": {
+    "pon": "Mo",
+    "uto": "Di",
+    "sri": "Mi",
+    "cet": "Do",
+    "pet": "Fr",
+    "sub": "Sa",
+    "ned": "So"
+  },
+  "meals": {
+    "dorucak": "Frühstück",
+    "rucak": "Mittagessen",
+    "vecera": "Abendessen"
+  },
+  "shopping": {
+    "title": "Einkaufsliste",
+    "addPlaceholder": "Artikel hinzufügen...",
+    "emptyTitle": "Liste ist leer",
+    "emptyDesc": "Fügen Sie Zutaten aus Rezepten oder manuell hinzu",
+    "bought": "Gekauft",
+    "clearBought": "Gekaufte löschen"
+  },
+  "favorites": {
+    "title": "Favoriten",
+    "emptyTitle": "Keine Lieblingsrezepte!",
+    "emptyDesc": "Fügen Sie Rezepte zu Favoriten hinzu, indem Sie auf das Herzsymbol auf der Rezeptseite tippen.",
+    "browseRecipes": "Rezepte durchsuchen"
+  },
+  "tips": {
+    "title": "Tipps",
+    "subtitle": "Hilfreiche Tipps für die Ernährung Ihres Babys",
+    "moreSoon": "Weitere Tipps folgen bald!",
+    "tip1_title": "Babyalter: 6-8 Monate",
+    "tip1_content": "Beginnen Sie mit einfachen Pürees aus einer Zutat. Führen Sie neues Gemüse und Obst schrittweise ein und warten Sie 3-5 Tage zwischen neuen Lebensmitteln, um mögliche allergische Reaktionen zu beobachten.",
+    "tip2_title": "Babyalter: 8-10 Monate",
+    "tip2_content": "Stillen oder Flaschenfütterung fortsetzen. Weichere Lebensmitteltexturen einführen (Püree, püriert). Fleisch (Huhn, Pute, Kalb) und Hülsenfrüchte (Erbsen, Bohnen, Linsen) einführen.",
+    "tip3_title": "Babyalter: 10-12 Monate",
+    "tip3_content": "Mit einer abwechslungsreicheren Ernährung fortfahren, einschließlich Obst, Gemüse, Fleisch, Hülsenfrüchte, Getreide. Eier können eingeführt werden (mit Eigelb beginnen). Fisch kann eingeführt werden (Reaktion des Babys sorgfältig beobachten).",
+    "tip4_title": "Baby sitzend füttern",
+    "tip4_content": "Stellen Sie sicher, dass Ihr Baby aufrecht sitzt, während es isst, um Verschlucken und andere Komplikationen zu vermeiden. Verwenden Sie spezielle Hochstühle, die die Wirbelsäule Ihres Babys stützen.",
+    "tip5_title": "Texturanpassung",
+    "tip5_content": "Wenn Ihr Baby wächst, erhöhen Sie schrittweise die Lebensmitteltextur, um das Kauen und die Entwicklung zu fördern. Gehen Sie von glatten Pürees zu grob püriert und dann zu weichen Stücken über.",
+    "tip6_title": "Saisonale Vielfalt",
+    "tip6_content": "Wählen Sie Obst und Gemüse der Saison für maximale Frische und Geschmack. Saisonale Lebensmittel sind nährstoffreicher und budgetfreundlicher.",
+    "tip7_title": "Flüssigkeitszufuhr ist wichtig",
+    "tip7_content": "Bieten Sie Ihrem Baby zwischen den Mahlzeiten Wasser an, besonders in wärmeren Monaten. Verwenden Sie eine kleine Tasse statt einer Flasche, um die Entwicklung der Motorik zu fördern."
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "general": "Allgemein",
+    "support": "Unterstützung",
+    "language": "Sprache",
+    "notifications": "Benachrichtigungen",
+    "darkMode": "Dunkelmodus",
+    "units": "Maßeinheiten",
+    "babyProfile": "Babyprofil",
+    "aboutApp": "Über die App",
+    "rateApp": "App bewerten",
+    "contactUs": "Kontaktieren Sie uns",
+    "comingSoon": "Demnächst verfügbar!",
+    "comingSoonDesc": "Diese Funktion wird in der nächsten Version verfügbar sein.",
+    "selectLanguage": "Sprache auswählen",
+    "languageChanged": "Sprache geändert!",
+    "feedback": "Feedback senden",
+    "about": "Über die App",
+    "version": "Version",
+    "madeWithLove": "Große Aromen für kleine Feinschmecker."
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Entschuldigung, die gesuchte Seite existiert nicht. Sie wurde möglicherweise verschoben oder gelöscht.",
+    "goHome": "Zur Startseite"
+  },
+  "banners": {
+    "banana_title": "Banane",
+    "banana_1": "Bananen sind reich an Kalium, das ein gesundes Herz unterstützt",
+    "banana_2": "Die weiche Textur der Banane ist ideal für die ersten Bissen",
+    "banana_3": "Bananen liefern Energie für aktive Babys",
+    "banana_4": "Leicht mit Getreide und Joghurt zu kombinieren",
+    "carrot_title": "Karotte",
+    "carrot_1": "Karotten sind reich an Beta-Carotin für gesundes Sehen",
+    "carrot_2": "Babys mögen normalerweise den süßen Geschmack von Karotten",
+    "carrot_3": "Gekochte Karotten sind leicht verdaulich",
+    "carrot_4": "Eine ausgezeichnete Ballaststoffquelle für die Verdauung"
+  },
+  "ageGroups": {
+    "5-6": "5-6 Mo",
+    "7-8": "7-8 Mo",
+    "9-10": "9-10 Mo",
+    "11-12": "11-12 Mo"
+  }
+}
