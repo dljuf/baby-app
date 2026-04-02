@@ -29,6 +29,24 @@ function cleanImageUrl(url: string | null | undefined, width: number = 400): str
   return cleaned;
 }
 
+/**
+ * Parse a comma-separated ingredients string into a trimmed, non-empty string array.
+ * Handles the raw DB value from `sastojci` / translation overlay.
+ */
+function parseIngredients(raw: string | null | undefined): string[] {
+  if (!raw) return [];
+  return raw.split(',').map(s => s.trim()).filter(Boolean);
+}
+
+/**
+ * Parse a period-delimited steps string into a trimmed, non-empty string array.
+ * Handles the raw DB value from `koraci` / translation overlay.
+ */
+function parseSteps(raw: string | null | undefined): string[] {
+  if (!raw) return [];
+  return raw.split('.').map(s => s.trim()).filter(Boolean);
+}
+
 // Languages that have translations in the DB (not 'sr' - that's the original)
 const TRANSLATABLE_LANGS = ["en", "hr", "de", "fr", "it", "es"];
 
@@ -189,8 +207,8 @@ export const appRouter = router({
           prepTime: r.vremepripreme,
           cookTime: r.vremekuvanja,
           totalTime: r.ukupnovreme,
-          ingredients: r.sastojci,
-          steps: r.koraci,
+          ingredients: parseIngredients(r.sastojci),
+          steps: parseSteps(r.koraci),
           allergens: r.alergeni,
           nutritionNotes: r.nutritivnenapomene,
           gptNutri: r.gpt_nutri,
@@ -229,8 +247,8 @@ export const appRouter = router({
           prepTime: r.vremepripreme,
           cookTime: r.vremekuvanja,
           totalTime: r.ukupnovreme,
-          ingredients: r.sastojci,
-          steps: r.koraci,
+          ingredients: parseIngredients(r.sastojci),
+          steps: parseSteps(r.koraci),
           allergens: r.alergeni,
           nutritionNotes: r.nutritivnenapomene,
           gptNutri: r.gpt_nutri,

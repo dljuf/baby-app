@@ -51,8 +51,10 @@ describe("recipes router", () => {
     expect(recipe).not.toBeNull();
     expect(recipe!.id).toBe(1);
     expect(recipe!.title).toBeTruthy();
-    expect(recipe!.ingredients).toBeTruthy();
-    expect(recipe!.steps).toBeTruthy();
+    expect(Array.isArray(recipe!.ingredients)).toBe(true);
+    expect(recipe!.ingredients.length).toBeGreaterThan(0);
+    expect(Array.isArray(recipe!.steps)).toBe(true);
+    expect(recipe!.steps.length).toBeGreaterThan(0);
   });
 
   it("should get a recipe by slug", async () => {
@@ -148,10 +150,14 @@ describe("recipes router", () => {
 
     expect(enRecipe).not.toBeNull();
     expect(srRecipe).not.toBeNull();
-    // Ingredients should be translated (different from Serbian)
-    expect(enRecipe!.ingredients).not.toBe(srRecipe!.ingredients);
-    // Steps should be translated
-    expect(enRecipe!.steps).not.toBe(srRecipe!.steps);
+    // Both should be arrays
+    expect(Array.isArray(enRecipe!.ingredients)).toBe(true);
+    expect(Array.isArray(srRecipe!.ingredients)).toBe(true);
+    expect(Array.isArray(enRecipe!.steps)).toBe(true);
+    expect(Array.isArray(srRecipe!.steps)).toBe(true);
+    // Translated content should differ from the Serbian original
+    expect(enRecipe!.ingredients.join(',')).not.toBe(srRecipe!.ingredients.join(','));
+    expect(enRecipe!.steps.join('.')).not.toBe(srRecipe!.steps.join('.'));
   });
 });
 

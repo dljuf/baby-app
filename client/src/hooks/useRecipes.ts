@@ -1,6 +1,10 @@
 /**
  * Hook for fetching recipes from the backend Supabase API via tRPC.
  * Passes the current i18n language to get translated content.
+ *
+ * The backend is responsible for parsing raw DB strings into structured arrays.
+ * This hook maps the tRPC response shape to the UI-facing RecipeDetail type
+ * without performing any string splitting or data transformation.
  */
 import { trpc } from '@/lib/trpc';
 import { useMemo } from 'react';
@@ -70,8 +74,8 @@ function mapDetail(r: {
   prepTime: string;
   cookTime: string;
   totalTime: string;
-  ingredients: string;
-  steps: string;
+  ingredients: string[];
+  steps: string[];
   allergens: string | null;
   nutritionNotes: string | null;
   gptNutri: string | null;
@@ -88,9 +92,9 @@ function mapDetail(r: {
     prepTime: r.prepTime,
     cookTime: r.cookTime,
     totalTime: r.totalTime,
-    // Parse comma-separated strings into arrays
-    ingredients: r.ingredients ? r.ingredients.split(',').map(s => s.trim()).filter(Boolean) : [],
-    steps: r.steps ? r.steps.split('.').map(s => s.trim()).filter(Boolean) : [],
+    // Backend already returns structured arrays — no parsing needed here.
+    ingredients: r.ingredients,
+    steps: r.steps,
     allergens: r.allergens,
     nutritionNotes: r.nutritionNotes,
     gptNutri: r.gptNutri,
