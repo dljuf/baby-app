@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useReducer, useEffect } from 'react';
+import { type MealSlotId } from '@shared/domain';
 
 interface ShoppingItem {
   id: string;
@@ -6,9 +7,11 @@ interface ShoppingItem {
   checked: boolean;
 }
 
-export type MealSlot = 'dorucak' | 'rucak' | 'vecera';
+/** Re-export so existing consumers of AppContext don't need a new import. */
+export type MealSlot = MealSlotId;
 
 export interface DayPlan {
+  [key: string]: string | null;
   dorucak: string | null; // recipe id or null
   rucak: string | null;
   vecera: string | null;

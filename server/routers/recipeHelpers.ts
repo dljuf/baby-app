@@ -7,9 +7,7 @@ import {
   type SupabaseRecipe,
   type SupabaseRecipeTranslation,
 } from "../supabase";
-
-// Languages that have translations in the DB (not 'sr' — that's the original)
-export const TRANSLATABLE_LANGS = ["en", "hr", "de", "fr", "it", "es"];
+import { TRANSLATABLE_LANG_CODES } from "@shared/domain";
 
 /**
  * Build optimized Supabase image URLs using Image Transformations.
@@ -56,7 +54,7 @@ export async function fetchTranslations(
   recipeIds: number[],
   lang: string
 ): Promise<Map<number, SupabaseRecipeTranslation>> {
-  if (!lang || lang === "sr" || !TRANSLATABLE_LANGS.includes(lang)) {
+  if (!lang || !(TRANSLATABLE_LANG_CODES as readonly string[]).includes(lang)) {
     return new Map();
   }
 

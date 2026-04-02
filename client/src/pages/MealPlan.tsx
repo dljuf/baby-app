@@ -5,6 +5,7 @@ import { useLocation, useSearch } from 'wouter';
 import { useState, useMemo, useEffect } from 'react';
 import { Plus, X, ShoppingCart, Trash2, ChevronRight, Loader2 } from 'lucide-react';
 import { useApp, daysOfWeek, mealSlots, type DayOfWeek, type MealSlot } from '@/contexts/AppContext';
+import { MEAL_SLOT_IDS } from '@shared/domain';
 import { useRecipeList, useRecipeById } from '@/hooks/useRecipes';
 import RecipePicker from '@/components/RecipePicker';
 import { toast } from 'sonner';
@@ -126,7 +127,7 @@ export default function MealPlan() {
     // Collect all recipe IDs from the meal plan
     const allIngredients: string[] = [];
     for (const day of Object.values(state.mealPlan)) {
-      for (const slot of ['dorucak', 'rucak', 'vecera'] as MealSlot[]) {
+      for (const slot of MEAL_SLOT_IDS) {
         const recipeId = day[slot];
         if (recipeId) {
           // Find recipe in fetched list (we only have list items, not full details)

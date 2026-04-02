@@ -6,14 +6,7 @@ import { ChevronLeft, Loader2 } from 'lucide-react';
 import { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useRecipeList } from '@/hooks/useRecipes';
-
-/** Age group definitions - paired months matching developmental stages */
-const AGE_GROUPS: { id: string; months: string[]; emoji: string }[] = [
-  { id: '5-6', months: ['5', '6'], emoji: '👶' },
-  { id: '7-8', months: ['7', '8'], emoji: '🧒' },
-  { id: '9-10', months: ['9', '10'], emoji: '👧' },
-  { id: '11-12', months: ['11', '12'], emoji: '🌟' },
-];
+import { AGE_GROUPS } from '@shared/domain';
 
 export default function RecipeList() {
   const [, setLocation] = useLocation();
@@ -29,7 +22,7 @@ export default function RecipeList() {
     const directMatch = AGE_GROUPS.find(g => g.id === ageParam);
     if (directMatch) return directMatch.id;
     // Check if it's a single month that belongs to a group
-    const groupMatch = AGE_GROUPS.find(g => g.months.includes(ageParam));
+    const groupMatch = AGE_GROUPS.find(g => (g.months as readonly string[]).includes(ageParam));
     return groupMatch ? groupMatch.id : 'all';
   }, [ageParam]);
 
@@ -43,7 +36,7 @@ export default function RecipeList() {
     if (selectedGroup === 'all') return allRecipes;
     const group = AGE_GROUPS.find(g => g.id === selectedGroup);
     if (!group) return allRecipes;
-    return allRecipes.filter(r => group.months.includes(r.age));
+    return allRecipes.filter(r => (group.months as readonly string[]).includes(r.age));
   }, [allRecipes, selectedGroup]);
 
   // Group filtered recipes by age for section headers
@@ -51,7 +44,7 @@ export default function RecipeList() {
     if (selectedGroup === 'all') {
       // When "All" is selected, group by age group pairs
       return AGE_GROUPS.map(group => {
-        const recipes = allRecipes.filter(r => group.months.includes(r.age));
+        const recipes = allRecipes.filter(r => (group.months as readonly string[]).includes(r.age));
         return {
           groupId: group.id,
           label: t(`ageGroups.${group.id}`),

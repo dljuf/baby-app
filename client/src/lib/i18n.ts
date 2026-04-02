@@ -1,6 +1,7 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
+import { SUPPORTED_LANG_CODES } from '@shared/domain';
 
 import sr from '@/locales/sr.json';
 import hr from '@/locales/hr.json';
@@ -10,13 +11,18 @@ import it from '@/locales/it.json';
 import es from '@/locales/es.json';
 import fr from '@/locales/fr.json';
 
+/**
+ * UI-facing language descriptors.
+ * Codes are authoritative from SUPPORTED_LANG_CODES; label and flag are
+ * display-only and live here rather than in shared/domain.ts.
+ */
 export const languages = [
-  { code: 'sr', label: 'Srpski', flag: '🇷🇸' },
+  { code: 'sr', label: 'Srpski',   flag: '🇷🇸' },
   { code: 'hr', label: 'Hrvatski', flag: '🇭🇷' },
-  { code: 'en', label: 'English', flag: '🇺🇸' },
-  { code: 'de', label: 'Deutsch', flag: '🇩🇪' },
+  { code: 'en', label: 'English',  flag: '🇺🇸' },
+  { code: 'de', label: 'Deutsch',  flag: '🇩🇪' },
   { code: 'it', label: 'Italiano', flag: '🇮🇹' },
-  { code: 'es', label: 'Español', flag: '🇪🇸' },
+  { code: 'es', label: 'Español',  flag: '🇪🇸' },
   { code: 'fr', label: 'Français', flag: '🇫🇷' },
 ] as const;
 
@@ -36,7 +42,8 @@ i18n
       fr: { translation: fr },
     },
     fallbackLng: 'sr',
-    supportedLngs: ['sr', 'hr', 'en', 'de', 'it', 'es', 'fr'],
+    // Derived from the shared source of truth — no manual list to keep in sync.
+    supportedLngs: [...SUPPORTED_LANG_CODES],
     interpolation: {
       escapeValue: false,
     },

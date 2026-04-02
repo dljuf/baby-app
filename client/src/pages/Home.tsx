@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { useLocation } from 'wouter';
 import { categories, categoryImages, heroBannerUrl } from '@/lib/data';
+import { AGE_GROUPS } from '@shared/domain';
 import { ChevronRight, Share2 } from 'lucide-react';
 import AppHeader from '@/components/AppHeader';
 import { useState } from 'react';
@@ -21,14 +22,13 @@ const fadeUp = {
   show: { opacity: 1, y: 0, transition: { duration: 0.4 } },
 };
 
-const ageStageIds = ['5-6', '7-8', '9-10', '11-12', 'all'] as const;
-const ageStageEmojis: Record<string, string> = {
-  '5-6': '👶',
-  '7-8': '🧒',
-  '9-10': '👧',
-  '11-12': '🌟',
-  'all': '⭐',
-};
+// Age stage entries for the home screen icon row.
+// AGE_GROUPS provides the four named groups; the 'all' entry is appended here
+// because it is a UI-only concept (not a real age group in the data model).
+const ageStageEntries = [
+  ...AGE_GROUPS,
+  { id: 'all', months: [] as string[], emoji: '⭐' },
+] as const;
 
 export default function Home() {
   const [, setLocation] = useLocation();
@@ -79,18 +79,18 @@ export default function Home() {
         initial="hidden"
         animate="show"
       >
-        {ageStageIds.map((id) => (
+        {ageStageEntries.map((entry) => (
           <motion.button
-            key={id}
+            key={entry.id}
             variants={fadeUp}
-            onClick={() => setLocation(id === 'all' ? '/recipes' : `/recipes?age=${id}`)}
+            onClick={() => setLocation(entry.id === 'all' ? '/recipes' : `/recipes?age=${entry.id}`)}
             className="flex flex-col items-center gap-1"
           >
             <div className="w-14 h-14 rounded-full bg-cream border-2 border-terracotta/20 flex items-center justify-center text-2xl shadow-sm hover:shadow-md transition-shadow hover:border-terracotta/40">
-              {ageStageEmojis[id]}
+              {entry.emoji}
             </div>
             <span className="text-[11px] font-medium text-warm-brown">
-              {id === 'all' ? t('ageStages.all') : t(`ageGroups.${id}`)}
+              {entry.id === 'all' ? t('ageStages.all') : t(`ageGroups.${entry.id}`)}
             </span>
           </motion.button>
         ))}
